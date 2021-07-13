@@ -1,0 +1,300 @@
+/*Adding New font*/
+@font-face {
+  font-family: 'hansiefregular';
+  src: url('../Hansief Font/hansief-webfont.woff2') format('woff2'),
+       url('../Hansief Font/hansief-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
+
+.main {
+  background-color: #F7F7F7 !important ;  
+}
+/* color: #fce8e1; */
+
+.cropped img {
+    /* margin: -50px 0px 0px; */
+}
+.cropped {
+  height: 100px !important;
+}
+.no-shadow {
+  box-shadow: none !important;
+}
+
+.nav_icon {
+  font-size: 40px !important;
+}
+
+.nav-wrapper {
+    background-color:  #F7F7F7 !important;
+}
+.sidenav {
+  background-color: #F7F7F7;
+}
+
+.nav_font {
+    font-family: 'Barlow', sans-serif;
+    /* font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 40px !important; */
+}
+
+
+/* Start of Editing the upper banner section */
+
+.upper_wrapper{
+  padding: 1px;
+  text-transform:uppercase;
+  text-align: center; 
+  font-weight:700;
+  background: #C71F17;
+  color:#fff;
+  /* font-family: 'hansiefregular'; */
+  font-family: "Baloo Da 2", serif;
+  font-size: 20px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  border-bottom: 5px solid #F3BB1A;
+    
+}
+
+.upper_wrapper ul li{
+  display:inline-block; 
+  margin-right:10px; 
+  padding-right:15px; 
+  border-right:1px solid;
+  cursor: pointer;  
+}
+
+/* Editing the last element in the upper banner */
+.upper_wrapper ul li:last-child{
+  border-right:none;
+}
+
+.upper_wrapper i{  
+  margin-right: 7px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.upper_wrapper i:hover{
+  color: #E6A326;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+/* .upper_wrapper ul li:hover{
+  color: #E6A326;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+} */
+
+/* Making the upper banner responsive */
+@media only screen and (min-width:0px) and (max-width:600px){
+
+  .upper_wrapper .list_1{
+    display: none;
+  }
+
+  .upper_wrapper .list_3{
+    display: none;
+  }
+  
+  .upper_wrapper .list_2{
+    border-right: none;    
+  }
+
+  .upper_wrapper .list_4{
+    display: block;            
+  }
+
+
+  .upper_wrapper{
+    align-items: center;
+    font-size: 25px;
+    padding: 1px;
+        
+  }  
+  
+}
+
+@media only screen and (min-width:600px) and (max-width: 992px){
+
+  .upper_wrapper .list_3{
+    display: none;
+  }
+  
+  .upper_wrapper .list_2{
+    border-right: none;    
+  }
+
+  .upper_wrapper .list_4{
+    display: block;
+    padding-top: 10px;           
+  }
+
+  .upper_wrapper{
+    align-items: center;
+    font-size: 20px; 
+    padding: 5px 0;   
+  }  
+  
+}
+
+/* Editing the language buttons */
+
+.waves-effect{
+  background: white;
+  color: black;
+  border:1px solid;
+  font-family: "Baloo Da 2", serif;
+  font-size: 15px;  
+}
+
+.waves-effect:hover{
+  background: #E6A326;
+  color: white;
+  border: 1px solid black;
+  font-family: "Baloo Da 2", serif;
+  font-size: 15px;
+}
+
+/*End of editing the language buttons*/
+
+
+/* Ending of Editing the upper banner section */
+
+
+.concards {
+  background: url(../images/nothing.png);
+}
+
+
+
+.parallax-container {
+  height: 100px;
+  margin-top: 0px !important;
+}
+.parallax {
+  margin-top: 0px !important;
+}
+
+/*mp-info section*/
+.mapinfo {
+  
+}
+
+/* Current navigation bar testing */
+.black-text{
+  color: #C71F17 !important;
+  /* font-family: "Baloo Da 2", serif; */
+  /* font-family: Archivo;
+  font-size: 20px !important;
+  font-weight: 500 !important; */
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  transition: all ease-in-out 250ms;  
+}
+
+.black-text:hover{
+  color: #F3BB1A!important;  
+}
+
+
+
+/* .material-icons{
+  color: red !important;
+  background: blue !important;
+} */
+
+
+
+
+/*Navigation Hamburger test*/
+
+.sidenav{  
+  /* background: rgb(243, 187, 26); */
+  /* background: #ffe14a; */
+  color: #C71F17 !important;  
+}
+
+.sidenav .nav_font{
+  font-family: "Baloo Da 2", serif;   
+}
+
+#mobile-demo{
+  font-family: "Baloo Da 2", serif;
+  /* font size is not valid here */
+  /* font-size: 20px;    */
+}
+
+
+/* Slider Editing Start */
+
+
+.caption h3{
+  /* color: #C71F17; */
+  color: white;
+  font-weight: 600;  
+}
+
+.caption h5{
+  color: #F3BB1A;
+  font-weight: 400;
+}
+
+.slider img{    
+  /* opacity: 0.8; */
+  /* background: rbg(243,187,26,0.1); */
+}
+
+
+
+
+
+/* Slider Editing End */
+
+
+/* Map edit */
+.map{  
+  margin-top: 70px !important;
+  background: #fff !important;  
+}
+
+.mapinfo{
+  background: #fff !important;
+} 
+
+
+/* Footer Editing */
+
+.white-text{
+  font-family: "Baloo Da 2", serif;
+  font-size: 35px;
+  color: #F3BB1A !important;
+  font-weight: 600;   
+}
+
+.footer_list{
+  font-family: "Baloo Da 2", serif;
+  font-size: 17px;
+  cursor: pointer;
+  font-weight: 300;  
+    
+}
+
+
+.footer_list a:hover{
+  color: red !important;   
+  transition: 0.5s ease-in-out !important;
+}
+
+
+nav ul a:hover {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
