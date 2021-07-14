@@ -1,5 +1,5 @@
 /*Adding New font*/
-@font-face {
+/* @font-face {
   font-family: 'hansiefregular';
   src: url('../Hansief Font/hansief-webfont.woff2') format('woff2'),
        url('../Hansief Font/hansief-webfont.woff') format('woff');
@@ -7,44 +7,12 @@
   font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600'); */
 
 
-.main {
-  background-color: #F7F7F7 !important ;  
-}
-/* color: #fce8e1; */
-
-.cropped img {
-    /* margin: -50px 0px 0px; */
-}
-.cropped {
-  height: 100px !important;
-}
-.no-shadow {
-  box-shadow: none !important;
-}
-
-.nav_icon {
-  font-size: 40px !important;
-}
-
-.nav-wrapper {
-    background-color:  #F7F7F7 !important;
-}
-.sidenav {
-  background-color: #F7F7F7;
-}
-
-.nav_font {
-    font-family: 'Barlow', sans-serif;
-    /* font-family: 'Archivo', sans-serif;
-    font-weight: 700;
-    font-size: 40px !important; */
-}
+/* Top Section - Language Selection Area -- START */
 
 
-/* Start of Editing the upper banner section */
 
 .upper_wrapper{
   padding: 1px;
@@ -144,6 +112,65 @@
   }  
   
 }
+
+
+.lang-btn{
+  font-weight:700;
+  color:#fff !important;
+  font-family: "Baloo Da 2", serif !important;
+  font-size: 20px !important;
+}
+
+
+
+
+
+
+/* Top Section - Language Selection Area -- END */
+
+
+
+
+
+
+
+.main {
+  background-color: #F7F7F7 !important ;  
+}
+/* color: #fce8e1; */
+
+.cropped img {
+    /* margin: -50px 0px 0px; */
+}
+.cropped {
+  height: 100px !important;
+}
+.no-shadow {
+  box-shadow: none !important;
+}
+
+.nav_icon {
+  font-size: 40px !important;
+}
+
+.nav-wrapper {
+    background-color:  #F7F7F7 !important;
+}
+.sidenav {
+  background-color: #F7F7F7;
+}
+
+.nav_font {
+    font-family: 'Barlow', sans-serif;
+    /* font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 40px !important; */
+}
+
+
+/* Start of Editing the upper banner section */
+
+
 
 /* Editing the language buttons */
 
