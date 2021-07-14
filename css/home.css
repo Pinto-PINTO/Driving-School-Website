@@ -1,16 +1,4 @@
-<<<<<<< HEAD
-*{
-  padding: 0;
-	margin: 0;
-	text-decoration: none;
-	list-style: none;
-}
 
-
-/* -----Top Section - Language Selection Area -- START -----*/
-
-.upper-wrapper{
-=======
 /*Adding New font*/
 @font-face {
   font-family: 'hansiefregular';
@@ -60,33 +48,25 @@
 /* Start of Editing the upper banner section */
 
 .upper_wrapper{
->>>>>>> 7d14dfa (First Commit)
+
   padding: 1px;
   text-transform:uppercase;
   text-align: center; 
   font-weight:700;
   background: #C71F17;
   color:#fff;
-<<<<<<< HEAD
-=======
+
   /* font-family: 'hansiefregular'; */
->>>>>>> 7d14dfa (First Commit)
+
   font-family: "Baloo Da 2", serif;
   font-size: 20px;
   margin-top: 0px !important;
   margin-bottom: 0px !important;
-<<<<<<< HEAD
-  border-bottom: 5px solid #F3BB1A;   
-}
-
-.upper-wrapper ul li{
-=======
   border-bottom: 5px solid #F3BB1A;
     
 }
 
 .upper_wrapper ul li{
->>>>>>> 7d14dfa (First Commit)
   display:inline-block; 
   margin-right:10px; 
   padding-right:15px; 
@@ -94,162 +74,17 @@
   cursor: pointer;  
 }
 
-<<<<<<< HEAD
-/* Removing right border from the last element*/
-.upper-wrapper ul li:last-child{
-  border-right:none;
-}
-
-/* Font awesome icons  */
-.upper-wrapper i{  
-=======
 /* Editing the last element in the upper banner */
 .upper_wrapper ul li:last-child{
   border-right:none;
 }
 
 .upper_wrapper i{  
->>>>>>> 7d14dfa (First Commit)
   margin-right: 7px;
   color: #fff;
   font-size: 15px;
 }
 
-<<<<<<< HEAD
-
-/* Langauge Buttons  */
-.lang-btn{
-  background: white;
-  border: 2px solid black;
-  padding: 5px 20px;
-  color: black;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-  font-size: 15px;
-  font-family: "Baloo Da 2", serif;
-  font-weight: 700 !important;
-  transition: all .5s;
-  transition: 0.5s ease-in-out;
-}
-
-.lang-btn:hover{
-  background: #E6A326;
-  color: white;
-  border: 2px solid black;
-  font-family: "Baloo Da 2", serif;
-  font-size: 15px;
-  transition: 0.5s ease-in-out;
-}
-
-
-/* Making Top Section Responsive */
-
-/* 1 - Mobile View, Tablet View */
-@media only screen and (min-width:0px) and (max-width:992px){
-
-  .upper-wrapper .list-1{
-    display: none;
-  }
-
-  .upper-wrapper .list-2{
-    border-right: none;
-    padding-bottom: 3px;    
-  }
-
-  .upper-wrapper .list-3{
-    display: none;
-  }
-  
-  .upper-wrapper .list-4{
-    display: block;            
-  }
-
-  .upper-wrapper{
-    display: flex;
-   	justify-content: center;
-   	align-items: center;
-    font-size: 25px;
-    padding: 1px;     
-  }   
-}
-
-
-/* 2 - Table view, Laptop View */
-@media only screen and (min-width:993px) and (max-width:1062px){
-  
-  .upper-wrapper .list-3{
-    border-right: none;
-  }
-
-  .upper-wrapper .list-4{
-    padding-top: 15px;            
-  }
-}
-
-
-/* 3 - Fix bug for 1063px view */
-@media only screen and (min-width:1063px){
-  
-  .upper-wrapper .list-4{
-    padding-top: 15px;            
-  }
-}
-
-/* -----Top Section - Language Selection Area -- END -----*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.main {
-  background-color: #F7F7F7 !important ;  
-}
-/* color: #fce8e1; */
-
-.cropped img {
-    /* margin: -50px 0px 0px; */
-}
-.cropped {
-  height: 100px !important;
-}
-.no-shadow {
-  box-shadow: none !important;
-}
-
-.nav_icon {
-  font-size: 40px !important;
-}
-
-.nav-wrapper {
-    background-color:  #F7F7F7 !important;
-}
-.sidenav {
-  background-color: #F7F7F7;
-}
-
-.nav_font {
-    font-family: 'Barlow', sans-serif;
-    /* font-family: 'Archivo', sans-serif;
-    font-weight: 700;
-    font-size: 40px !important; */
-}
-
-
-/* Start of Editing the upper banner section */
-
-
-
-=======
 .upper_wrapper i:hover{
   color: #E6A326;
   cursor: pointer;
@@ -314,7 +149,6 @@
   
 }
 
->>>>>>> 7d14dfa (First Commit)
 /* Editing the language buttons */
 
 .waves-effect{
