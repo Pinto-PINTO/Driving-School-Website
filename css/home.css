@@ -9,6 +9,27 @@
 
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600'); */
 
+/* body {
+  color: #fff;
+  background: hsl(227, 10%, 10%);
+  font: 300 1em 'Fira Sans', sans-serif;
+  
+  
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+} */
+
+*{
+  padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
 
 /* Top Section - Language Selection Area -- START */
 
@@ -114,12 +135,31 @@
 }
 
 
+/* Langauge Buttons  */
+
 .lang-btn{
-  font-weight:700;
-  color:#fff !important;
-  font-family: "Baloo Da 2", serif !important;
-  font-size: 20px !important;
+  background: white;
+  border: 2px solid black;
+  padding: 5px 20px;
+  color: black;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  font-size: 15px;
+  font-family: "Baloo Da 2", serif;
+  font-weight: 700 !important;
+  transition: all .5s;
 }
+
+.lang-btn:hover{
+  background: #E6A326;
+  color: white;
+  border: 2px solid black;
+  font-family: "Baloo Da 2", serif;
+  font-size: 15px;
+}
+
+
 
 
 
